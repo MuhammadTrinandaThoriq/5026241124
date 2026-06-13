@@ -1,5 +1,10 @@
-<!DOCTYPE html>
-<html>
+@extends('template')
+
+@section('title', 'Keranjang Belanja')
+
+@section('konten')
+
+
 <head>
     <title>Data Keranjang Belanja</title>
 
@@ -44,4 +49,5 @@
 </div>
 
 </body>
-</html>
+
+@endsection
